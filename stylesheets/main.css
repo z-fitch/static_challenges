@@ -1,0 +1,101 @@
+
+
+.header {
+  background-color: #282424;
+  overflow: hidden;
+}
+
+.header h1 {
+  font-size: 25px;
+  padding: 15px;
+  color: white;
+  font-family: Arial;
+
+}
+.header a {
+  font-size: 15px;
+  color: white;
+  float: right;
+}
+
+.topnav {
+  background-color: #a43e02;
+  overflow: hidden;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  padding: 90px;
+  text-decoration: none;
+}
+
+.blocks {
+  background-color: RGB(0,0,0, 0.5) ;
+  /* opacity: 0.5; */
+
+}
+
+.content {
+  color: white;
+  font-family: Arial;
+}
+
+.content h2, p {
+  color: white;
+  margin: 5px 5px 5px 20px;
+  
+} 
+
+.content p {
+  color: white;
+  margin: 5px 5px 1px 20px;
+  font-size: 10px;
+
+} 
+
+.desc {
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  /* margin: 5px 5px 5px 1px; */
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.photo {
+  width: 150px;
+  height: 250px;
+  object-fit: cover;
+}
+
+body {
+  background-image: url("../images/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: right;
+  width: 50%;
+}
+
+.footer {
+  background-color: #282424;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer p {
+  font-size: 10px;
+  padding: 15px;
+  color: white;
+  font-family: Arial;
+}
